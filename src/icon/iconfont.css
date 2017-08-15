@@ -1,0 +1,61 @@
+
+@font-face {font-family: "iconfont";
+  src: url('fonts/iconfont.eot?t=1502351991414'); /* IE9*/
+  src: url('fonts/iconfont.eot?t=1502351991414#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('fonts/iconfont.woff?t=1502351991414') format('woff'), /* chrome, firefox */
+  url('fonts/iconfont.ttf?t=1502351991414') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('fonts/iconfont.svg?t=1502351991414#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-logo_paper_grey:before { content: "\e618"; }
+
+.icon-btn_checkbox:before { content: "\e619"; }
+
+.icon-icon_moved:before { content: "\e61a"; }
+
+.icon-btn_view:before { content: "\e61b"; }
+
+.icon-icon_attribute:before { content: "\e61c"; }
+
+.icon-icon_add:before { content: "\e61d"; }
+
+.icon-btn_check_off:before { content: "\e61e"; }
+
+.icon-btn_edit:before { content: "\e61f"; }
+
+.icon-btn_reload:before { content: "\e620"; }
+
+.icon-icon_control:before { content: "\e621"; }
+
+.icon-icon_folder_:before { content: "\e622"; }
+
+.icon-icon_expand:before { content: "\e623"; }
+
+.icon-icon_layout:before { content: "\e624"; }
+
+.icon-icon_expand_less:before { content: "\e625"; }
+
+.icon-icon_folder:before { content: "\e626"; }
+
+.icon-icon_pro_game:before { content: "\e627"; }
+
+.icon-icon_scenes:before { content: "\e628"; }
+
+.icon-icon_setting:before { content: "\e629"; }
+
+.icon-icon_search:before { content: "\e62a"; }
+
+.icon-icon_more:before { content: "\e62c"; }
+
+.icon-icon_project:before { content: "\e62d"; }
+
+.icon-icon_welcome:before { content: "\e62b"; }
+

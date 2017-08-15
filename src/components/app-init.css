@@ -1,0 +1,127 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+
+body{font:12px"宋体","Arial Narrow",HELVETICA;background:#202020;-webkit-text-size-adjust:100%; -webkit-font-smoothing: subpixel-antialiased;color: #d8d8d8}
+
+em{font-style:normal}
+
+li{list-style:none}
+
+img{border:0;vertical-align:middle}
+
+table{border-collapse:collapse;border-spacing:0}
+
+p{word-wrap:break-word}
+
+input{outline: none}
+/*antd*/
+ul.ant-tree li a[draggable], .ant-tree li a[draggable="true"]{
+    width: calc(100% - 18px)
+}
+/*antd*/
+/*.ant-tree-child-tree.ant-tree-child-tree-open li:hover{
+    background: #cd0200;
+}*/
+a:after{
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 15px;
+    background: #666;
+}
+.mati-input{
+    max-width: 100%;
+    margin-left:8px; 
+    padding-bottom: 4px;
+    border-bottom: 1px solid #202020;
+    box-sizing: content-box;
+}
+.mati-input .mati-input-content{
+    position: relative;
+    margin-top: 4px;
+    width: 85%;
+    display: inline-block;
+    /*background: #7d7d7d;*/
+
+    height: 24px;
+  
+}
+.mati-input .mati-input-content input{
+    opacity: 0.12;
+    width: 100%;
+    height: 24px;
+    border-radius: 2px;
+    border: 0;
+    color: #fff;
+}
+.mati-input .out-icon{
+    display: inline-block;
+    width: 24px;
+    margin-right: 8px;   
+}
+.input-bottom-l,.input-bottom-r{
+    /*width: calc(50%-2px);*/
+    bottom: 0px;
+    height: 2px;
+    position: absolute;
+    width: 0;
+}
+.input-bottom-l{
+    right: 50%;
+    padding-left: 2px; 
+}
+.input-bottom-r{
+    left: 50%;
+    padding-right: 2px; 
+}
+.mati-input:hover input{
+    opacity: 0.28;
+}
+.mati-input:hover .input-bottom-l{
+    width: 50%;
+    transition: 1s;
+}
+.mati-input:hover .input-bottom-r{
+    width: 50%;
+    transition: 1s;
+}
+.input-side-content{
+    width: 100%;
+    background: #cc7349;
+    height: 2px;
+}
+#layout{
+    height: calc(100% - 38px);
+    padding: 20px;
+    background: #444;
+    background-clip: content-box;
+}
+
+/*scroller*/
+div[data-reactroot]{
+    height: 100%;
+    padding: 4px 0;
+}
+
+/*tree*/
+.ant-tree li a{
+    position: relative;
+    box-sizing: content-box;
+}
+.ant-tree-switcher{
+    position: relative;
+    z-index: 11;
+}
+.ant-tree-title{
+    display: inline-block;
+    width: 300px;
+}
+/*layout*/
+.lm_vertical {
+    background: #202020;
+}
+.lm_splitter:hover, .lm_splitter.lm_dragging {
+    background: #E37847;
+     /*background: #202020;*/
+    box-shadow: 0 0 3px 1px darkorange;
+    opacity: 1;
+}

@@ -1,0 +1,423 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?ebnmld');
+  src:  url('fonts/icomoon.eot?ebnmld#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ebnmld') format('truetype'),
+    url('fonts/icomoon.woff?ebnmld') format('woff'),
+    url('fonts/icomoon.svg?ebnmld#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-btn_check_off:before {
+  content: "\e948";
+  color: #fff;
+}
+.icon-btn_edit2:before {
+  content: "\e949";
+  color: #fff;
+}
+.icon-btn_reload2:before {
+  content: "\e94a";
+  color: #fff;
+}
+.icon-btn_view2:before {
+  content: "\e94b";
+  color: #fff;
+}
+.icon-icon_add2:before {
+  content: "\e94c";
+  color: #fff;
+}
+.icon-icon_attribute:before {
+  content: "\e94d";
+  color: #fff;
+}
+.icon-icon_control2:before {
+  content: "\e94e";
+  color: #fff;
+}
+.icon-icon_expand:before {
+  content: "\e94f";
+  color: #fff;
+}
+.icon-icon_expand_less:before {
+  content: "\e950";
+  color: #fff;
+}
+.icon-icon_folder2:before {
+  content: "\e951";
+  color: #fff;
+}
+.icon-icon_folder_2:before {
+  content: "\e952";
+  color: #fff;
+}
+.icon-icon_layout2:before {
+  content: "\e953";
+  color: #fff;
+}
+.icon-icon_more:before {
+  content: "\e954";
+  color: #fff;
+}
+.icon-icon_pro_game2:before {
+  content: "\e955";
+  color: #fff;
+}
+.icon-icon_project2:before {
+  content: "\e956";
+  color: #fff;
+}
+.icon-icon_scenes2:before {
+  content: "\e957";
+  color: #fff;
+}
+.icon-icon_search2:before {
+  content: "\e958";
+  color: #fff;
+}
+.icon-icon_setting:before {
+  content: "\e959";
+  color: #fff;
+}
+.icon-icon_welcome2:before {
+  content: "\e95a";
+  color: #fff;
+}
+.icon-btn_checkbox .path1:before {
+  content: "\e95b";
+  color: rgb(204, 115, 73);
+}
+.icon-btn_checkbox .path2:before {
+  content: "\e95c";
+  margin-left: -1em;
+  color: rgb(232, 232, 232);
+}
+.icon-icon_moved .path1:before {
+  content: "\e95d";
+  color: rgb(255, 255, 255);
+}
+.icon-icon_moved .path2:before {
+  content: "\e95e";
+  margin-left: -0.3330078125em;
+  color: rgb(216, 216, 216);
+}
+.icon-logo_paper_grey:before {
+  content: "\e95f";
+}
+.icon-btn_close_root:before {
+  content: "\e924";
+  color: #adacac;
+}
+.icon-btn_window_root:before {
+  content: "\e925";
+  color: #adacac;
+}
+.icon-btn_windowMax_root:before {
+  content: "\e926";
+  color: #fff;
+}
+.icon-btn_winMini_root:before {
+  content: "\e927";
+  color: #adacac;
+}
+.icon-btn_more:before {
+  content: "\e928";
+  color: #adacac;
+}
+.icon-icon_add_project:before {
+  content: "\e929";
+  color: #adacac;
+}
+.icon-icon_open:before {
+  content: "\e92a";
+  color: #adacac;
+}
+.icon-icon_user .path1:before {
+  content: "\e92b";
+  color: rgb(153, 153, 153);
+}
+.icon-icon_user .path2:before {
+  content: "\e92c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-logo_bigger .path1:before {
+  content: "\e92d";
+  color: rgb(216, 216, 216);
+}
+.icon-logo_bigger .path2:before {
+  content: "\e92e";
+  margin-left: -2.3330078125em;
+  color: rgb(216, 216, 216);
+}
+.icon-logo_bigger .path3:before {
+  content: "\e92f";
+  margin-left: -2.3330078125em;
+  color: rgb(173, 172, 172);
+}
+.icon-logo_bigger .path4:before {
+  content: "\e930";
+  margin-left: -2.3330078125em;
+  color: rgb(216, 216, 216);
+}
+.icon-logo_paper .path1:before {
+  content: "\e931";
+  color: rgb(17, 36, 38);
+}
+.icon-logo_paper .path2:before {
+  content: "\e932";
+  margin-left: -1em;
+  color: rgb(227, 120, 71);
+}
+.icon-logo_paper .path3:before {
+  content: "\e933";
+  margin-left: -1em;
+  color: rgb(227, 120, 71);
+}
+.icon-logo_paper .path4:before {
+  content: "\e934";
+  margin-left: -1em;
+  color: rgb(187, 68, 38);
+}
+.icon-pic_welcome:before {
+  content: "\e935";
+  color: #d8d8d8;
+}
+.icon-icon_delete:before {
+  content: "\e936";
+  color: #adacac;
+}
+.icon-icon_factory_settings:before {
+  content: "\e937";
+  color: #adacac;
+}
+.icon-icon_music_big:before {
+  content: "\e938";
+  color: #adacac;
+}
+.icon-icon_point:before {
+  content: "\e939";
+  color: #adacac;
+}
+.icon-icon_polygo:before {
+  content: "\e93a";
+  color: #adacac;
+}
+.icon-icon_round:before {
+  content: "\e93b";
+  color: #fff;
+}
+.icon-icon_setting_s:before {
+  content: "\e93c";
+  color: #adacac;
+}
+.icon-icon_warning@2x:before {
+  content: "\e93d";
+  color: #adacac;
+}
+.icon-btn_view_size .path1:before {
+  content: "\e93e";
+  color: rgb(54, 54, 54);
+}
+.icon-btn_view_size .path2:before {
+  content: "\e93f";
+  margin-left: -1em;
+  color: rgb(125, 125, 125);
+}
+.icon-btn_view_size .path3:before {
+  content: "\e940";
+  margin-left: -1em;
+  color: rgb(48, 48, 48);
+}
+.icon-icon_folder_grey .path1:before {
+  content: "\e941";
+  color: rgb(109, 109, 109);
+}
+.icon-icon_folder_grey .path2:before {
+  content: "\e942";
+  margin-left: -1em;
+  color: rgb(156, 156, 156);
+}
+.icon-icon_folder_grey_x .path1:before {
+  content: "\e943";
+  color: rgb(174, 174, 174);
+}
+.icon-icon_folder_grey_x .path2:before {
+  content: "\e944";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-icon_move .path1:before {
+  content: "\e945";
+  color: rgb(101, 101, 101);
+}
+.icon-icon_move .path2:before {
+  content: "\e946";
+  margin-left: -1em;
+  color: rgb(43, 43, 43);
+}
+.icon-icon_paper_orange:before {
+  content: "\e947";
+  color: #e37847;
+}
+.icon-btn_aligned_bottom:before {
+  content: "\e900";
+  color: #adacac;
+}
+.icon-btn_aligned_left:before {
+  content: "\e901";
+  color: #adacac;
+}
+.icon-btn_aligned_middle:before {
+  content: "\e902";
+  color: #adacac;
+}
+.icon-btn_aligned_middle_y:before {
+  content: "\e903";
+  color: #adacac;
+}
+.icon-btn_aligned_right:before {
+  content: "\e904";
+  color: #adacac;
+}
+.icon-btn_aligned_top:before {
+  content: "\e905";
+  color: #adacac;
+}
+.icon-btn_close_card:before {
+  content: "\e906";
+  color: #acaaad;
+}
+.icon-btn_dis_bottom:before {
+  content: "\e907";
+  color: #adacac;
+}
+.icon-btn_dis_left:before {
+  content: "\e908";
+  color: #adacac;
+}
+.icon-btn_dis_middle:before {
+  content: "\e909";
+  color: #adacac;
+}
+.icon-btn_dis_middle_y:before {
+  content: "\e90a";
+  color: #adacac;
+}
+.icon-btn_dis_right:before {
+  content: "\e90b";
+  color: #adacac;
+}
+.icon-btn_dis_top:before {
+  content: "\e90c";
+  color: #adacac;
+}
+.icon-btn_edit:before {
+  content: "\e90d";
+  color: #fff;
+}
+.icon-btn_match_h:before {
+  content: "\e90e";
+  color: #adacac;
+}
+.icon-btn_match_w:before {
+  content: "\e90f";
+  color: #adacac;
+}
+.icon-btn_match_w_h:before {
+  content: "\e910";
+  color: #adacac;
+}
+.icon-btn_reload:before {
+  content: "\e911";
+  color: #adacac;
+}
+.icon-btn_spacing_x:before {
+  content: "\e912";
+  color: #adacac;
+}
+.icon-btn_spacing_y:before {
+  content: "\e913";
+  color: #adacac;
+}
+.icon-btn_view:before {
+  content: "\e914";
+  color: #fff;
+}
+.icon-icon_add:before {
+  content: "\e915";
+  color: #fff;
+}
+.icon-icon_big_view:before {
+  content: "\e916";
+  color: #999;
+}
+.icon-icon_control:before {
+  content: "\e917";
+  color: #adacac;
+}
+.icon-icon_folder:before {
+  content: "\e918";
+  color: #bababa;
+}
+.icon-icon_layout:before {
+  content: "\e919";
+  color: #adacac;
+}
+.icon-icon_little_view:before {
+  content: "\e91a";
+  color: #999;
+}
+.icon-icon_pro_game:before {
+  content: "\e91b";
+  color: #adacac;
+}
+.icon-icon_project:before {
+  content: "\e91c";
+  color: #adacac;
+}
+.icon-icon_property:before {
+  content: "\e91d";
+  color: #adacac;
+}
+.icon-icon_scenes:before {
+  content: "\e91e";
+  color: #adacac;
+}
+.icon-icon_search:before {
+  content: "\e91f";
+  color: #adacac;
+}
+.icon-icon_setting_card:before {
+  content: "\e920";
+  color: #adacac;
+}
+.icon-icon_triangle_down:before {
+  content: "\e921";
+  color: #adacac;
+}
+.icon-icon_triangle_right:before {
+  content: "\e922";
+  color: #adacac;
+}
+.icon-icon_welcome:before {
+  content: "\e923";
+  color: #adacac;
+}
