@@ -3,9 +3,12 @@ import GoldenLayout from 'golden-layout';
 import Header from './header/header'
 import Gamepro from './game-pro/game-pro'
 import Item from './item/item'
+import Console from './console/console'
 import './app-init.css';
 
+
 class App extends React.Component{
+   
     constructor(props){
         super(props);
         this.state = {
@@ -79,7 +82,7 @@ class App extends React.Component{
                     id:'c',
                     type:'react-component',
                     title:'c',
-                    component: 'b',
+                    component: 'c',
                     props: { label: 'C' }
                     }]
                 }]
@@ -94,7 +97,7 @@ class App extends React.Component{
         })
         this.myNewLayout.registerComponent('progame',Gamepro);
         this.myNewLayout.registerComponent('b',Item);
-        this.myNewLayout.registerComponent('c',Gamepro);
+        this.myNewLayout.registerComponent('c',Console);
         this.myNewLayout.init();
         // setTimeout(
         //     ()=>{

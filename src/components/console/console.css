@@ -1,0 +1,22 @@
+.con-title{
+    padding: 4px;
+    height: 24px;
+    line-height: 24px;
+}
+.con-title-item{
+    float: left;
+    width: 60px;
+    text-align: center;
+    opacity: 0.48;
+}
+.con-bottom{
+    padding: 4px;
+}
+.con-span{
+    background: #E37847;
+    height: 2px;
+    width: 60px;
+    position: relative;
+    transition: 0.5s;
+    border-radius: 2px;
+}

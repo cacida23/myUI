@@ -78,11 +78,11 @@ a:after{
 }
 .mati-input:hover .input-bottom-l{
     width: 50%;
-    transition: 1s;
+    transition: 0.3s;
 }
 .mati-input:hover .input-bottom-r{
     width: 50%;
-    transition: 1s;
+    transition: 0.3s;
 }
 .input-side-content{
     width: 100%;
@@ -124,4 +124,37 @@ div[data-reactroot]{
      /*background: #202020;*/
     box-shadow: 0 0 3px 1px darkorange;
     opacity: 1;
+}
+/*slider*/
+div.ant-slider{
+    background-color: #444;
+}
+div.ant-slider{
+    border-color: #565656
+}
+div.ant-slider-handle{
+    background: #E37847;
+    border:none;
+    width: 8px;
+    height: 8px;
+    top:3px;
+}
+div.ant-slider-track{
+    background-color: #666;
+}
+div.ant-tootip-open{
+    background: #E37847;
+}
+div.ant-slider:hover .ant-slider-track{
+    background-color: #E37847 
+}
+div.ant-slider:hover .div.ant-slider-handle{
+    background: #444;
+    border:none;
+    width: 14px;
+    height: 14px;
+    top:1px;
+}
+.ant-slider-handle.ant-tooltip-open{
+    box-shadow: 0 0 0px 6px rgba(227,120,71,0.3);
 }
