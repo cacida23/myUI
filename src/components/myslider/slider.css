@@ -1,0 +1,35 @@
+div.ant-slider{
+    background-color: #444;
+}
+div.ant-slider{
+    border-color: #565656
+}
+div.ant-slider-handle{
+    background: #E37847;
+    border:none;
+    width: 8px;
+    height: 8px;
+    top:3px;
+}
+.prop-content div.ant-slider-track{
+    background-color: #E37847;
+}
+div.ant-tootip-open{
+    background: #E37847;
+}
+div.ant-slider:hover{
+    background: #444;
+}
+div.ant-slider:hover .ant-slider-track{
+    background-color: #E37847 
+}
+div.ant-slider:hover .div.ant-slider-handle{
+    background: #444;
+    border:none;
+    width: 14px;
+    height: 14px;
+    top:1px;
+}
+.ant-slider-handle.ant-tooltip-open{
+    box-shadow: 0 0 0px 6px rgba(227,120,71,0.3);
+}

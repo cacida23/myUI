@@ -1,6 +1,8 @@
 import React from 'react';
 import './scrollbar.css';
-import { colloapse } from 'antd'
+
+
+
 class Scrollbar extends React.Component{
     render(){
         let innerComponent = "没有内容";

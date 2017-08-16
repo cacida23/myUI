@@ -106,6 +106,9 @@ class App extends React.Component{
         this.myNewLayout.registerComponent('Option',Prop)
         this.myNewLayout.registerComponent('test-component',Prop);
         this.myNewLayout.init();
+        window.onresize = ()=>{
+            this.myNewLayout.updateSize()
+        }
         // setTimeout(
         //     ()=>{
         //           var state = JSON.stringify(this.myNewLayout.toConfig());

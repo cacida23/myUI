@@ -3,7 +3,7 @@ import './myinput.css'
 class Myinput extends React.Component{
     render(){
       return (
-        <div>
+        <div className='myinput'>
           <div className='my-input'>
           <div className='my-input-content'>
            <input type="text" />

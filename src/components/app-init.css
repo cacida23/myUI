@@ -161,7 +161,7 @@ div.ant-slider:hover .div.ant-slider-handle{
 
 /*折叠面板*/
 .ant-collapse-borderless > .ant-collapse-item > .ant-collapse-content{
-    border-top-color: #3d3d3d;
+    border: none;
 }
 .ant-collapse-borderless > .ant-collapse-item > .ant-collapse-header{
     border-top: 1px solid #3d3d3d;
@@ -175,4 +175,13 @@ div.ant-slider:hover .div.ant-slider-handle{
 }
 .ant-collapse > .ant-collapse-item > .ant-collapse-header:active{
     background: #565656;
+}
+div.ant-collapse-content{
+    padding: 0px;
+}
+div.ant-collapse-content > .ant-collapse-content-box{
+    padding-top:0px; 
+}
+.ant-collapse > .ant-collapse-item > .ant-collapse-header{
+    padding-left: 4px;
 }

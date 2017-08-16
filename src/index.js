@@ -18,6 +18,7 @@
 //         rfs.call(el); 
 //     } 
 // };
+
 function rightClick(){
     window.oncontextmenu = function (){
         return false;

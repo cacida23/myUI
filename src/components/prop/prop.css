@@ -1,3 +1,43 @@
 .prop-content{
     padding-left: 8px;
 }
+.prop-item-text{
+    color: #8d8d8d;
+    float: left;
+    width: 102px;
+    height: 32px;
+    line-height: 32px;
+}
+.prop-item-content{
+    float: left;
+    width: calc(100% - 102px)
+}
+.doubleInput>div{
+    overflow: hidden;
+    float: left;
+    width: 50%;
+}
+.prop-content .prop-content{
+    float: left;
+    color: #fff;
+}
+.prop-content .myinput{
+    float: left;
+    width: calc(100% - 16px);
+}
+.item-prop{
+    float: left;
+    height: 32px;
+    line-height: 32px;
+    width: 16px;
+    text-align: center;
+    color: #8d8d8d;
+}
+.onlyInput .my-input{
+   max-width: 172px; 
+}
+.prop-item-wraper{
+    overflow: hidden;
+    width: 100%;
+
+}

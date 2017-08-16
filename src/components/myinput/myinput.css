@@ -1,6 +1,6 @@
 .my-input{
-    max-width: 70px;
-    margin-left:8px; 
+    min-width: 70px;
+    /*margin-left:8px; */
     padding-bottom: 4px;
     box-sizing: content-box;
 }
@@ -16,12 +16,15 @@
   
 }
 .my-input .my-input-content input{
-    opacity: 0.12;
+    text-align: left;
+    padding-right: 8px;
+    background: rgba(255, 255, 255, 0.12);
     width: 100%;
     height: 24px;
     border-radius: 2px;
     border: 0;
-    color: #fff;
+    color: rgba(255, 255, 255, .48);
+    font-size: 14px;
 }
 .my-input .out-icon{
     display: inline-block;
@@ -44,7 +47,8 @@
     padding-right: 2px; 
 }
 .my-input:hover input{
-    opacity: 0.28;
+    background: rgba(255, 255, 255, .28);
+    color: #fff;
 }
 .my-input:hover .input-bottom-l{
     width: 50%;

@@ -17,6 +17,7 @@
     height: 2px;
     width: 60px;
     position: relative;
+    left: 0;
     transition: 0.5s;
     border-radius: 2px;
 }

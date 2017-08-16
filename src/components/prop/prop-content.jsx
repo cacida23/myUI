@@ -2,6 +2,7 @@ import React from 'react';
 import Scrollbar from '../scrollbar/scrollbar.jsx';
 import { Collapse } from 'antd';
 import Myinput from '../myinput/myinput'
+import PropItem from './prop-item'
 const Panel = Collapse.Panel;
 
 const text = `
@@ -27,10 +28,13 @@ class PropContent extends React.Component{
         return (
          
             <Collapse bordered={false} defaultActiveKey={['1']}>
-                <Panel header="This is panel header 1" key="1" style={customPanelStyle}>
-                    <div className="prop-item">
-                        <Myinput></Myinput>
-                    </div>
+                <Panel header="基本属性" key="1" style={customPanelStyle}>
+                    <PropItem Itemtext="Position" Itemstyle="doubleInput" Itemprops={["x","y"]}></PropItem>
+                    <PropItem Itemtext="Size" Itemstyle="doubleInput" Itemprops={["x","y"]}></PropItem>
+                    <PropItem Itemtext="Scope" Itemstyle="doubleInput" Itemprops={["w","h"]}></PropItem>
+                    <PropItem Itemtext="Anchor" Itemstyle="doubleInput" Itemprops={["x","y"]}></PropItem>
+                    <PropItem Itemtext="Rotation" Itemstyle="onlyInput" Itemprops={["","y"]}></PropItem>
+                    <PropItem Itemtext="Position" Itemstyle="doubleInput" Itemprops={["x","y"]}></PropItem>
                 </Panel>
                 <Panel header="This is panel header 2" key="2" style={customPanelStyle}>
                 <p>{text}</p>
