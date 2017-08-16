@@ -1,0 +1,61 @@
+.my-input{
+    max-width: 70px;
+    margin-left:8px; 
+    padding-bottom: 4px;
+    box-sizing: content-box;
+}
+.my-input .my-input-content{
+    position: relative;
+    margin-top: 4px;
+    width: 100%;
+    display: inline-block;
+    /*background: #7d7d7d;*/
+    text-align: center;
+    color: #fff;
+    height: 24px;
+  
+}
+.my-input .my-input-content input{
+    opacity: 0.12;
+    width: 100%;
+    height: 24px;
+    border-radius: 2px;
+    border: 0;
+    color: #fff;
+}
+.my-input .out-icon{
+    display: inline-block;
+    width: 24px;
+    margin-right: 8px;   
+}
+.input-bottom-l,.input-bottom-r{
+    /*width: calc(50%-2px);*/
+    bottom: 0px;
+    height: 2px;
+    position: absolute;
+    width: 0;
+}
+.input-bottom-l{
+    right: 50%;
+    padding-left: 2px; 
+}
+.input-bottom-r{
+    left: 50%;
+    padding-right: 2px; 
+}
+.my-input:hover input{
+    opacity: 0.28;
+}
+.my-input:hover .input-bottom-l{
+    width: 50%;
+    transition: 0.3s;
+}
+.my-input:hover .input-bottom-r{
+    width: 50%;
+    transition: 0.3s;
+}
+.input-side-content{
+    width: 100%;
+    background: #cc7349;
+    height: 2px;
+}

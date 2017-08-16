@@ -4,7 +4,11 @@ import Header from './header/header'
 import Gamepro from './game-pro/game-pro'
 import Item from './item/item'
 import Console from './console/console'
+import {myconfig} from './config'
+import Prop from './prop/prop'
+ 
 import './app-init.css';
+import './icon.css'
 
 
 class App extends React.Component{
@@ -12,6 +16,7 @@ class App extends React.Component{
     constructor(props){
         super(props);
         this.state = {
+            config:myconfig
         };
         this.titleHeader=`<span class="icon-logo_paper_grey"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span>&nbsp;<span class="icon-icon_`
         this.titleLast=`"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span>&nbsp;`
@@ -53,51 +58,53 @@ class App extends React.Component{
         })
     }
     render(){
-         this.myNewLayout = new GoldenLayout({ 
-             dimensions: {
-                borderWidth: 5,
-                minItemHeight: 200,
-                minItemWidth: 10,
-                headerHeight: 20,
-                dragProxyWidth: 300,
-                dragProxyHeight: 200
-            },
-            content: [{
-                type: 'column',
-                content:[{
-                    id:'pro_game',
-                    type:'react-component',
-                    title:this.titleHeader+`pro_game`+this.titleLast+'游戏对象',
-                    component: 'progame',
-                    props: { label: 'A' }
-                },{
-                type: 'row',
-                content:[{
-                    id:'b',
-                    type:'react-component',
-                    title:'b',
-                    component: 'b',
-                    props: { label: 'B' }
-                },{
-                    id:'c',
-                    type:'react-component',
-                    title:'c',
-                    component: 'c',
-                    props: { label: 'C' }
-                    }]
-                }]
-            }]
-         },document.getElementById('layout'))
-        //  myLayout.registerComponent('test-component',Item);
+        //  this.myNewLayout = new GoldenLayout({ 
+        //      dimensions: {
+        //         borderWidth: 5,
+        //         minItemHeight: 200,
+        //         minItemWidth: 10,
+        //         headerHeight: 20,
+        //         dragProxyWidth: 300,
+        //         dragProxyHeight: 200
+        //     },
+        //     content: [{
+        //         type: 'column',
+        //         content:[{
+        //             id:'pro_game',
+        //             type:'react-component',
+        //             title:this.titleHeader+`pro_game`+this.titleLast+'游戏对象',
+        //             component: 'progame',
+        //             props: { label: 'A' }
+        //         },{
+        //         type: 'row',
+        //         content:[{
+        //             id:'b',
+        //             type:'react-component',
+        //             title:'b',
+        //             component: 'b',
+        //             props: { label: 'B' }
+        //         },{
+        //             id:'c',
+        //             type:'react-component',
+        //             title:'c',
+        //             component: 'c',
+        //             props: { label: 'C' }
+        //             }]
+        //         }]
+        //     }]
+        //  },document.getElementById('layout'))
+        this.myNewLayout = new GoldenLayout(this.state.config,document.getElementById('layout'))
         this.myNewLayout.on('initialised',()=>{
            this.dragWaH()
         })
         this.myNewLayout.on('stateChanged',()=>{
             this.dragWaH()
         })
-        this.myNewLayout.registerComponent('progame',Gamepro);
-        this.myNewLayout.registerComponent('b',Item);
-        this.myNewLayout.registerComponent('c',Console);
+        this.myNewLayout.registerComponent('ProGame',Gamepro);
+        this.myNewLayout.registerComponent('Files',Item);
+        this.myNewLayout.registerComponent('Cmd',Console);
+        this.myNewLayout.registerComponent('Option',Prop)
+        this.myNewLayout.registerComponent('test-component',Prop);
         this.myNewLayout.init();
         // setTimeout(
         //     ()=>{

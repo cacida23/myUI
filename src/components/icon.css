@@ -1,0 +1,152 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?oz0rxh');
+  src:  url('fonts/icomoon.eot?oz0rxh#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?oz0rxh') format('truetype'),
+    url('fonts/icomoon.woff?oz0rxh') format('woff'),
+    url('fonts/icomoon.svg?oz0rxh#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 24px;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-logo_paper .path1:before {
+  content: "\e918";
+  color: rgb(17, 36, 38);
+}
+.icon-logo_paper .path2:before {
+  content: "\e919";
+  margin-left: -1em;
+  color: rgb(227, 120, 71);
+}
+.icon-logo_paper .path3:before {
+  content: "\e91a";
+  margin-left: -1em;
+  color: rgb(227, 120, 71);
+}
+.icon-logo_paper .path4:before {
+  content: "\e91b";
+  margin-left: -1em;
+  color: rgb(187, 68, 38);
+}
+.icon-btn_checkbox .path1:before {
+  content: "\e900";
+  color: rgb(204, 115, 73);
+}
+.icon-btn_checkbox .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(232, 232, 232);
+}
+.icon-icon_moved .path1:before {
+  content: "\e902";
+  color: rgb(255, 255, 255);
+}
+.icon-icon_moved .path2:before {
+  content: "\e903";
+  margin-left: -0.3330078125em;
+  color: rgb(216, 216, 216);
+}
+.icon-logo_paper_grey:before {
+  content: "\e904";
+}
+.icon-btn_check_off:before {
+  content: "\e905";
+  color: #fff;
+}
+.icon-btn_edit:before {
+  content: "\e906";
+  color: #fff;
+}
+.icon-btn_reload:before {
+  content: "\e907";
+  color: #fff;
+}
+.icon-btn_view:before {
+  content: "\e908";
+  color: #fff;
+}
+.icon-icon_add:before {
+  content: "\e909";
+  color: #fff;
+}
+.icon-icon_attribute:before {
+  content: "\e90a";
+  color: #fff;
+}
+.icon-icon_control:before {
+  content: "\e90b";
+  color: #fff;
+}
+.icon-icon_expand:before {
+  content: "\e90c";
+  color: #fff;
+}
+.icon-icon_expand_less:before {
+  content: "\e90d";
+  color: #fff;
+}
+.icon-icon_folder:before {
+  content: "\e90e";
+  color: #fff;
+}
+.icon-icon_folder_2:before {
+  content: "\e90f";
+  color: #fff;
+}
+.icon-icon_layout:before {
+  content: "\e910";
+  color: #fff;
+}
+.icon-icon_more:before {
+  content: "\e911";
+  color: #fff;
+}
+.icon-icon_pro_game:before {
+  content: "\e912";
+  color: #fff;
+}
+.icon-icon_project:before {
+  content: "\e913";
+  color: #fff;
+}
+.icon-icon_scenes:before {
+  content: "\e914";
+  color: #fff;
+}
+.icon-icon_search:before {
+  content: "\e915";
+  color: #fff;
+}
+.icon-icon_setting:before {
+  content: "\e916";
+  color: #fff;
+}
+.icon-icon_welcome:before {
+  content: "\e917";
+  color: #fff;
+}
+
+.ico-mid{
+  vertical-align:middle;
+}
+
+.ico-handle{
+  vertical-align:middle;
+  color: #3d3d3d;
+}

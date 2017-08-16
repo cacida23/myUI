@@ -1,6 +1,6 @@
 body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
 
-body{font:12px"宋体","Arial Narrow",HELVETICA;background:#202020;-webkit-text-size-adjust:100%; -webkit-font-smoothing: subpixel-antialiased;color: #d8d8d8}
+body{font:12px"宋体","Arial Narrow",HELVETICA;background:#3d3d3d;-webkit-text-size-adjust:100%; -webkit-font-smoothing: subpixel-antialiased;color: #d8d8d8}
 
 em{font-style:normal}
 
@@ -157,4 +157,22 @@ div.ant-slider:hover .div.ant-slider-handle{
 }
 .ant-slider-handle.ant-tooltip-open{
     box-shadow: 0 0 0px 6px rgba(227,120,71,0.3);
+}
+
+/*折叠面板*/
+.ant-collapse-borderless > .ant-collapse-item > .ant-collapse-content{
+    border-top-color: #3d3d3d;
+}
+.ant-collapse-borderless > .ant-collapse-item > .ant-collapse-header{
+    border-top: 1px solid #3d3d3d;
+    color: #fff;
+}
+.ant-collapse-borderless > .ant-collapse-item > .ant-collapse-header i{
+    color: #8d8d8d ;
+}
+.ant-collapse-borderless > .ant-collapse-item > .ant-collapse-header:hover{
+    background: #565656;
+}
+.ant-collapse > .ant-collapse-item > .ant-collapse-header:active{
+    background: #565656;
 }
